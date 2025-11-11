@@ -9,7 +9,7 @@ long getDirSize(const char *path) {
   struct dirent *entry;
   struct stat info;
   long total_size = 0;
-  char fullpath[1024;
+  char fullpath[1024];
 
   dir = opendir(path);
 
